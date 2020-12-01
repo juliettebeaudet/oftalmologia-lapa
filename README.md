@@ -6,5 +6,5 @@ The design is purposefully minimalist and contrasted, considering the target aud
 
 Code: HTML, CSS, Bootstrap.
 
-Website link: http://www.oftalmologia-lapa.com.br/ .
-Deploy and hosting tools: Netlify & GoDaddy
+Website link: http://www.oftalmologia-lapa.com.br/. <br>
+Deploy and hosting tools: Netlify & GoDaddy.
