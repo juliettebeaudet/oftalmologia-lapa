@@ -4,7 +4,7 @@ My mother-in-law, an ophthalmologist, needed a website for her clinic. I took th
 
 The design is purposefully minimalist and contrasted, considering the target audience and accessibility.
 
-Code: HTML, CSS, Bootstrap
+Code: HTML, CSS, Bootstrap.
 
-Website link: http://www.oftalmologia-lapa.com.br/ 
+Website link: http://www.oftalmologia-lapa.com.br/ .
 Deploy and hosting tools: Netlify & GoDaddy
