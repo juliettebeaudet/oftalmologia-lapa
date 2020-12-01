@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consultório oftalmológico - Lapa - Dra Giceli Rinaldo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white">
+
+        <a class="navbar-brand" href="#">
+            <img src="imagens oftalmologia/logo.png" width="200" height="100" class="d-inline-block align-top" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Serviços
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#oftalmogeral">Oftalmologia geral</a>
+                        <a class="dropdown-item" href="#visaosubnormal">Visão subnormal</a>
+                        <a class="dropdown-item" href="#cirurgia">Cirurgia de catarata</a>
+                        <a class="dropdown-item" href="#lentes">Lentes de contato</a>
+                        <a class="dropdown-item" href="#exames">Exames complementares</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkTwp" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Acesso
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkTwo">
+                        <a class="dropdown-item" href="#comochegar">Endereço</a>
+                        <a class="dropdown-item" href="#horarios">Horários</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Intro com logo -->
+    <section id="about" class="about">
+        <blockquote>
+            <div class="text-center titulo py-4">
+                <h1 class="pt-2">CONSULTÓRIO OFTALMOLÓGICO</h1>
+                <h2 class="pt-2">Lapa - São Paulo</h2>
+            </div>
+        </blockquote>
+    </section>
+
+    <!-- Quem somos -->
+
+    <section id="quemsomos" class="quemsomos my-5" style="background-color: white;">
+        <!-- <blockquote class="blockquote text-center">
+            <div class="contato-text pt-4">
+                <h1>Quem somos</h1>
+            </div>
+        </blockquote> -->
+        <div class="row justify-content-center align-items-center px-4 px-sm-5">
+
+            <div class="col-md-7">
+                <h5>Estamos <b>atuando há 25 anos na área oftalmológica</b>. Atendemos pacientes de todas as faixas
+                    etárias, oferecendo os diversos serviços apresentados abaixo.<br><br>
+                    Também disponibilizamos de um <b>ambulatório de refração</b> exclusivo para realização do exame do
+                    grau de
+                    óculos.</h5>
+            </div>
+
+            <div class="col-md col-sm-8 pt-4 pt-lg-1 text-center">
+                <div class="container medica">
+                    <div class="card-body">
+                        <h4 class="card-title py-2">Profissionais</h4>
+                        <h6 class="card-title"><b>Profa. Dra. Giceli Rodrigues Chaves Rinaldo</b></h6>
+                        <p class="card-text-bottom statuspro">Médica responsável</p>
+                        <h6 class="card-title"><b>Dra. Patricia Souza</b></h6>
+                        <p class="card-text-bottom statuspro">Médica assistente</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="col-lg col-sm-5 pt-4 pt-lg-1 text-center">
+                <div class="container medica pt-3">
+                    <div class="card-body">
+                        <h6 class="card-title nomecompleto"><b>Dra. Patricia Souza (adicionar nome completo)</b></h6>
+                        <p class="card-text-bottom statuspro">Médica assistente</p>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- https://getbootstrap.com/docs/4.0/utilities/flex/ -->
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos" style="background-color: lightblue">
+
+        <blockquote class="blockquote text-center">
+            <div class="about-text">
+                <h1 class="pt-4 pb-3">Serviços</h1>
+            </div>
+        </blockquote>
+
+        <section class="cards text-center pb-4 mb-2">
+            <div class="container">
+                <div class="card-deck">
+
+                    <!-- Primeiro card -->
+                    <div class="card border-dark mb-4">
+                        <div class="container">
+                            <!-- <img id="oftalmogeral" class="card-img-top mt-3 filterimg"
+                                src="./imagens oftalmologia/oft geral 2.jpeg" alt="Imagem de capa do card"> -->
+                                <img id="oftalmogeral" class="card-img-top mt-3 filterimg"
+                                src="./imagens oftalmologia/maquina-grau.jpg" alt="Imagem de capa do card">
+                                <!-- <img id="oftalmogeral" class="card-img-top mt-3 filterimg"
+                                src="./imagens oftalmologia/pessoa-grau.jpg" alt="Imagem de capa do card"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">OFTALMOLOGIA GERAL</h5>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal"
+                                    data-target="#staticBackdrop">
+                                    Ler mais
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1"
+                                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"><b>Oftalmologia geral</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Atendemos bebês, crianças, adultos e idosos;<br>
+                                                Avaliação oftalmológica para bebês, pessoas com deficiência intelectual,
+                                                auditiva e múltipla deficiência;<br>
+                                                Acompanhamento do desenvolvimento visual de bebês e crianças de
+                                                risco;<br>
+                                                Exame de refração (grau de óculos);<br>
+                                                Fundoscopia (fundo de olho);<br>
+                                                Biomicroscopia (exame das estruturas anteriores do olho);<br>
+                                                Biomicroscopia de papila;<br>
+                                                Tonometria (medida da pressão intra ocular);<br>
+                                                Curva tonométrica;<br>
+                                                Avaliação da motilidade ocular;<br>
+                                                Tratamento clínico do estrabismo;<br>
+                                                Diagnóstico e tratamento das doenças oculares;<br>
+                                                Prova de função das vias lacrimais. <br>
+                                            </div>
+                                            <div class="modal-footer text-center">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Segundo card-->
+                    <div class="card border-dark mb-4">
+                        <div class="container">
+                            <!-- <img id="visaosubnormal" class="card-img-top mt-3 filterimg"
+                                src="./imagens oftalmologia/WhatsApp Image 2020-03-20 at 19.25.07 (2).jpeg"
+                                alt="Imagem de capa do card"> -->
+                                <!-- <img id="visaosubnormal" class="card-img-top mt-3 prototypeimg"
+                                src="./imagens oftalmologia/alternativa-og-ou-vs.jpg"
+                                alt="Imagem de capa do card"> -->
+                                <img id="visaosubnormal" class="card-img-top mt-3 prototypeimg"
+                                src="./imagens oftalmologia/subnormal2.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">VISÃO SUBNORMAL</h5>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal"
+                                    data-target="#staticBackdropTwo">
+                                    Ler mais
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdropTwo" data-backdrop="static" tabindex="-1"
+                                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"><b>Visão subnormal</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Diagnóstico e acompanhamento de baixa visão; <br>
+                                                Avaliação das funções visuais; <br>
+                                                Adaptação e treinamento de recursos ópticos especiais para deficientes
+                                                visuais.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="w-100 d-none d-sm-block d-md-none">
+                        <!-- wrap every 2 on sm - OK GOOD-->
+                    </div>
+
+                    <!--Terceiro card-->
+                    <div class="card border-dark mb-4">
+                        <div class="container">
+                            <img id="cirurgia" class="card-img-top mt-3 catarataimg"
+                                src="./imagens oftalmologia/catarata.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">CIRURGIA DE CATARATA</h5>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal"
+                                    data-target="#staticBackdropThree">
+                                    Ler mais
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdropThree" data-backdrop="static" tabindex="-1"
+                                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"><b>Cirurgia de catarata</b>
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Catarata é a perda da transparência do cristalino (lente natural do
+                                                olho) que compromete severamente a visão , podendo resultar em
+                                                cegueira.<br>
+                                                A cirurgia de catarata consiste na remoção do cristalino e implante de
+                                                uma lente intra ocular melhorando a acuidade visual, a auto estima,
+                                                independência e qualidade de vida. <br> Performada no consultório.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100 d-none d-md-block d-lg-block d-xl-block">
+                        <!-- wrap every 3 on md- ALSO lg e xl-->
+                    </div>
+
+                    <!-- Quarto card-->
+                    <div class="card border-dark mb-4">
+                        <div class="container">
+                            <img id="lentes" class="card-img-top mt-3 filterimg" src="./imagens oftalmologia/lentes.jpg"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">LENTES DE CONTATO</h5>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal"
+                                    data-target="#staticBackdropFour">
+                                    Ler mais
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdropFour" data-backdrop="static" tabindex="-1"
+                                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"><b>Lentes de contato</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Adaptamos lentes de contato gelatinosas, gel tóricas e rígidas.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="w-100 d-none d-sm-block d-md-none">
+                        <!-- wrap every 2 on sm - OK GOOD-->
+                    </div>
+                    <div class="w-100 d-none d-lg-none d-xl-none">
+                        <!-- wrap every 4 on lg - UNDONE -->
+                    </div>
+
+
+                    <!-- Quinto card-->
+                    <div class="card border-dark mb-4">
+                        <div class="container">
+                            <img id="exames" class="card-img-top mt-3 filterimg" src="./imagens oftalmologia/exames.jpg"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">EXAMES COMPLEMENTARES</h5>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal"
+                                    data-target="#staticBackdropFive">
+                                    Ler mais
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdropFive" data-backdrop="static" tabindex="-1"
+                                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"><b>Exames complementares</b>
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Acuidade visual por cartões de Teller; <br>
+                                                Angiofluoresceinografia; <br>
+                                                Biometria; <br>
+                                                Campimetria computadorizada (campo visual); <br>
+                                                Curva tonométrico diária; <br>
+                                                Galilei; <br>
+                                                Gonioscopia; <br>
+                                                Mapeamento de retina; <br>
+                                                Microscopia; <br>
+                                                O.C.T. (tomografia de coerência ótica); <br>
+                                                Paquímetros; <br>
+                                                PAM; <br>
+                                                Retinografia; <br>
+                                                Teste de Shirmmer; <br>
+                                                Teste Ishihara; <br>
+                                                Teste ortóptico; <br>
+                                                U.S.G ocular (ultrassonografia). <br><br>
+                                                Os exames são realizados em parceria com clínicas e hospitais
+                                                oftalmológicos renomados.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="profissionais pb-4">
+            <blockquote class="blockquote text-center ">
+                <div class="about-text" id="horario">
+                    <h4 class="py-4">Profissionais</h4>
+                    <p>
+                        Profa. Dra. Giceli Rodrigues Chaves Rinaldo <br>
+                        Dra. Patricia Souza<br>
+                    </p>
+                </div>
+            </blockquote>
+        </section> -->
+
+    </section>
+
+
+    <!-- Acesso -->
+
+    <section id="acesso" class="acesso">
+
+        <blockquote class="blockquote text-center pt-4">
+            <div class="about-text">
+                <h1>Acesso</h1>
+            </div>
+        </blockquote>
+
+        <blockquote class="blockquote text-center">
+            <div class="about-text" id="mapa">
+                <h4 class="pt-2 pb-4" id="comochegar">Endereço</h4>
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3184422100103!2d-46.70634468502307!3d-23.521046384702917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8640b6341cf%3A0xbe677fb8b5bb1368!2sR.%20Clemente%20%C3%81lvares%2C%20119%20-%20Lapa%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005074-050!5e0!3m2!1spt-BR!2sbr!4v1604679026778!5m2!1spt-BR!2sbr"
+                    width="800" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+            </div>
+        </blockquote>
+
+        <blockquote class="blockquote text-center">
+            <div class="about-text pb-3" id="horario">
+                <h4 class="py-3" id="horarios">Horário de funcionamento</h4>
+                <p>
+                    Segunda <br> 09:00 - 12:00 | 13:00 - 17:30 <br>
+                </p>
+                <p> Terça a Sexta<br>08:00 - 12:00 | 13:00 - 17:30</p>
+                <p> Sábado <br> 08:00 - 12:00 </p>
+            </div>
+        </blockquote>
+    </section>
+
+
+
+    <!-- Contato -->
+
+    <section id="contato" class="contato" style="background-color: lightblue;">
+
+        <blockquote class="blockquote text-center">
+            <div class="contato-text pt-4">
+                <h1>Contato</h1>
+            </div>
+        </blockquote>
+
+
+        <blockquote class="alinharcontatos blockquote text-center row pb-4">
+            <div class="email col-sm-4">
+                <img class="mail" src="./imagens oftalmologia/mail.png" class="img-fluid" alt="Responsive image">
+                <p class="pt-2">oftalmo.consult@gmail.com</p>
+            </div>
+            <div class="telefone col-sm-4">
+                <img src="./imagens oftalmologia/phone.png" class="img-fluid" alt="Responsive image">
+                <p class="pt-2">3835-8069 | 3641-2238 | 3836-4500</p>
+            </div>
+            <div class="whats col-sm-4">
+                <img src="./imagens oftalmologia/whats.png" class="img-fluid" alt="Responsive image">
+                <p class="pt-2"><a class="link" href="https://api.whatsapp.com/send?phone=+5511976213308"
+                        target="_blank">(11) 9 7621-3308</a></p>
+            </div>
+        </blockquote>
+
+    </section>
+
+
+    <!--Footer-->
+    <section id="footer" class="footer">
+        <div class="container">
+
+            <blockquote class="blockquote text-center">
+                <div class="about-text">
+                    <p class="copyright-final">© Copyright 2020 <br> Site desenvolvido por <a class="link"
+                            href="https://github.com/juliettebeaudet" target="_blank">Juliette Beaudet</a></p>
+
+                </div>
+            </blockquote>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

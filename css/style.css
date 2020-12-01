@@ -1,0 +1,104 @@
+body {
+  /* font-family: 'Montserrat', sans-serif; -- ignorada */
+  /* font-family: 'PT Serif', serif; -- menos linda */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.link {
+  color: rgb(18, 59, 150);
+}
+
+.titulo {
+  font-family: 'PT Serif', serif;
+  max-width: 98%;
+  padding-left: 2%;
+}
+
+.mail {
+  border-radius: 30%;
+}
+
+.navbar-nav {
+  justify-content: row;
+  font-size: large;
+}
+
+/* .quemsomos {
+  max-width: 98%;
+  padding-left: 2%;
+} */
+/* Com o border das fotos de médicas, ficou um pouco demais na direita */
+
+.quemsomos h5 {
+  text-align: justify;
+}
+
+/* .quemsomos img {
+  border-radius: 50%;
+  border: 2px solid rgb(89, 110, 180);
+  max-width: 120px;
+  max-height: 120px;
+} */
+
+.medica {
+  border-radius: 3%;
+  border: 1px dotted rgb(89, 110, 180);
+}
+
+.statuspro {
+  border-radius: 3%;
+  background-color: rgb(218, 226, 253);
+}
+
+.card-title {
+  word-break: break-word;
+}
+
+.card img {
+  width: 100%;
+  /* height: 32vh; no caso de nao ter todas fotos do shutterstock*/
+  object-fit: cover;
+}
+/* Pensar em uniformar as fotos. */
+
+.filterimg {
+  filter: contrast(108%) brightness(106%) saturate(130%);
+  border: 0.2px solid #555;
+}
+
+.prototypeimg {
+  filter: contrast(118%) brightness(122%) saturate(90%) grayscale(60%);
+  border: 0.2px solid #555;
+}
+
+.catarataimg {
+  filter: contrast(108%) brightness(112%) grayscale(60%);
+  border: 0.2px solid #555;
+}
+
+.mapa {
+  max-width: 100%;
+}
+
+.contato {
+  text-align: center;
+}
+
+.copyright-final {
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+  .alinharcontatos {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: none;
+  }
+}
